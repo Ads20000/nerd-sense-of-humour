@@ -1,0 +1,13 @@
+name: nerd-sense-of-humour
+version: master
+summary: Nerd Sense of Humour
+description: Prints out a totally hilarious nerdy line, totally
+confinement: strict
+grade: devel
+apps:
+  nerd-sense-of-humour:
+    command: nerd-sense-of-humour.bash
+parts:
+  nerd-sense-of-humour:
+    plugin: dump
+    source: https://github.com/Ads20000/nerd-sense-of-humour.git
